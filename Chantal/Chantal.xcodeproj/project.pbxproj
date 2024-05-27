@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF2A4D102C035A0E00A73BAA /* CreateTaskUITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2A4D0F2C035A0E00A73BAA /* CreateTaskUITest.swift */; };
+		CF2A4D192C05168D00A73BAA /* MarkTaskDoneUITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2A4D182C05168D00A73BAA /* MarkTaskDoneUITest.swift */; };
+		CF2A4D1B2C05273400A73BAA /* TaskRemoveUITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2A4D1A2C05273400A73BAA /* TaskRemoveUITest.swift */; };
+		CF2A4D1D2C0529A200A73BAA /* DoneTaskRemoveUITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2A4D1C2C0529A200A73BAA /* DoneTaskRemoveUITest.swift */; };
 		EC556544214D78A8003383B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC556543214D78A8003383B8 /* AppDelegate.swift */; };
 		EC556549214D78A8003383B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC556547214D78A8003383B8 /* Main.storyboard */; };
 		EC55654B214D78A9003383B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC55654A214D78A9003383B8 /* Assets.xcassets */; };
@@ -17,7 +21,22 @@
 		EC556560214DBA34003383B8 /* TasksUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC55655F214DBA34003383B8 /* TasksUtility.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		CF2A4D132C035A0E00A73BAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC556538214D78A8003383B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC55653F214D78A8003383B8;
+			remoteInfo = Chantal;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		CF2A4D0D2C035A0E00A73BAA /* ChantalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChantalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF2A4D0F2C035A0E00A73BAA /* CreateTaskUITest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTaskUITest.swift; sourceTree = "<group>"; };
+		CF2A4D182C05168D00A73BAA /* MarkTaskDoneUITest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkTaskDoneUITest.swift; sourceTree = "<group>"; };
+		CF2A4D1A2C05273400A73BAA /* TaskRemoveUITest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRemoveUITest.swift; sourceTree = "<group>"; };
+		CF2A4D1C2C0529A200A73BAA /* DoneTaskRemoveUITest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoneTaskRemoveUITest.swift; sourceTree = "<group>"; };
 		EC556540214D78A8003383B8 /* Chantal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chantal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC556543214D78A8003383B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC556548214D78A8003383B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -31,6 +50,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		CF2A4D0A2C035A0E00A73BAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EC55653D214D78A8003383B8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -41,10 +67,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CF2A4D0E2C035A0E00A73BAA /* ChantalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF2A4D0F2C035A0E00A73BAA /* CreateTaskUITest.swift */,
+				CF2A4D182C05168D00A73BAA /* MarkTaskDoneUITest.swift */,
+				CF2A4D1A2C05273400A73BAA /* TaskRemoveUITest.swift */,
+				CF2A4D1C2C0529A200A73BAA /* DoneTaskRemoveUITest.swift */,
+			);
+			path = ChantalUITests;
+			sourceTree = "<group>";
+		};
 		EC556537214D78A8003383B8 = {
 			isa = PBXGroup;
 			children = (
 				EC556542214D78A8003383B8 /* Chantal */,
+				CF2A4D0E2C035A0E00A73BAA /* ChantalUITests */,
 				EC556541214D78A8003383B8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				EC556540214D78A8003383B8 /* Chantal.app */,
+				CF2A4D0D2C035A0E00A73BAA /* ChantalUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,6 +147,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		CF2A4D0C2C035A0E00A73BAA /* ChantalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF2A4D172C035A0E00A73BAA /* Build configuration list for PBXNativeTarget "ChantalUITests" */;
+			buildPhases = (
+				CF2A4D092C035A0E00A73BAA /* Sources */,
+				CF2A4D0A2C035A0E00A73BAA /* Frameworks */,
+				CF2A4D0B2C035A0E00A73BAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF2A4D142C035A0E00A73BAA /* PBXTargetDependency */,
+			);
+			name = ChantalUITests;
+			productName = ChantalUITests;
+			productReference = CF2A4D0D2C035A0E00A73BAA /* ChantalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		EC55653F214D78A8003383B8 /* Chantal */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC556552214D78A9003383B8 /* Build configuration list for PBXNativeTarget "Chantal" */;
@@ -131,10 +188,14 @@
 		EC556538214D78A8003383B8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0940;
+				LastSwiftUpdateCheck = 1520;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Monte Thakkar";
 				TargetAttributes = {
+					CF2A4D0C2C035A0E00A73BAA = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = EC55653F214D78A8003383B8;
+					};
 					EC55653F214D78A8003383B8 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
@@ -154,11 +215,19 @@
 			projectRoot = "";
 			targets = (
 				EC55653F214D78A8003383B8 /* Chantal */,
+				CF2A4D0C2C035A0E00A73BAA /* ChantalUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		CF2A4D0B2C035A0E00A73BAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EC55653E214D78A8003383B8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -172,6 +241,17 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		CF2A4D092C035A0E00A73BAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF2A4D1D2C0529A200A73BAA /* DoneTaskRemoveUITest.swift in Sources */,
+				CF2A4D1B2C05273400A73BAA /* TaskRemoveUITest.swift in Sources */,
+				CF2A4D192C05168D00A73BAA /* MarkTaskDoneUITest.swift in Sources */,
+				CF2A4D102C035A0E00A73BAA /* CreateTaskUITest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EC55653C214D78A8003383B8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -185,6 +265,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF2A4D142C035A0E00A73BAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC55653F214D78A8003383B8 /* Chantal */;
+			targetProxy = CF2A4D132C035A0E00A73BAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		EC556547214D78A8003383B8 /* Main.storyboard */ = {
@@ -206,6 +294,56 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		CF2A4D152C035A0E00A73BAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = qwe.ChantalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Chantal;
+			};
+			name = Debug;
+		};
+		CF2A4D162C035A0E00A73BAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = qwe.ChantalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Chantal;
+			};
+			name = Release;
+		};
 		EC556550214D78A9003383B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -359,6 +497,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		CF2A4D172C035A0E00A73BAA /* Build configuration list for PBXNativeTarget "ChantalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF2A4D152C035A0E00A73BAA /* Debug */,
+				CF2A4D162C035A0E00A73BAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		EC55653B214D78A8003383B8 /* Build configuration list for PBXProject "Chantal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
